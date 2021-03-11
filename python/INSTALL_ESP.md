@@ -14,4 +14,15 @@ La siguiente instalación se realizara mediante el uso del terminal de windows, 
 
 Usamos la combinación de teclas "win+r", que abrira el ejecutador y escribiremos "cmd" como se aprecia en la siguiente figura:
 
-![fig1]()
+![fig1](https://github.com/oolaya1815/variados/blob/main/python/images/install1.JPG)
+
+En el terminal ejecutamos 
+
+```
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe --output miniconda.exe
+```
+
+Por ultimo sera necesario proceder a la instalción
+```
+miniconda.exe
+```
