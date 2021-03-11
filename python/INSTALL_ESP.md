@@ -22,7 +22,34 @@ En el terminal ejecutamos
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe --output miniconda.exe
 ```
 
-Por ultimo sera necesario proceder a la instalación
+Procedemos con la instalación
 ```
 miniconda.exe
+```
+
+### Configurando el entorno 
+
+Procedemos a crear un entorno virtual con python en su versión 3.7 y Tensorflow en su versión 2.1
+
+```
+conda create --name tensorflow python=3.7
+conda activate tensorflow
+```
+
+Instalando Tensorflow con soporte solo a CPU
+
+```
+conda install -c anaconda tensorflow
+```
+
+Instalando Tensorflow con soporte a GPU
+
+```
+conda install -c anaconda tensorflow-gpu
+```
+
+Instalando dependencias y librerias
+
+```
+conda env update --file tools.yml
 ```
