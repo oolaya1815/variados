@@ -27,7 +27,14 @@ Procedemos con la instalación
 miniconda.exe
 ```
 
-### Configurando el entorno 
+## Linux
+
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+## Configurando el entorno 
 
 Procedemos a crear un entorno virtual con python en su versión 3.7 y Tensorflow en su versión 2.1
 
